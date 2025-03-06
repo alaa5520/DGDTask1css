@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+  
+  
+  body{
+    background: #f3e5d8;
+  }
+  /* Container */
+  .container {
+    background: white;
+    width: 50%;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin: auto;
+  }
+  /*contact*/
+  .contact{
+    width: 95%;
+    margin: 20px auto;
+  }
+  /*image*/
+  .image{
+    width: 100%;
+    
+  }
+  .image img{
+    width: 100%;
+    border-radius: 10px;
+
+  }
+  /*h1--h3*/
+  h1 {
+    
+    font-size: 42px;
+    font-weight: 600;
+    margin: 15px 0;
+    color:black;
+  }
+  
+  
+  h3 {
+    
+    font-size: 30px;
+    font-weight: 30;
+    margin-bottom: 10px;
+    color:brown;
+    margin-left: 20px;
+  }
+  /*Omelette*/
+  .Omelette
+  {
+    padding: 20px;
+  }
+  .Omelette p{
+    width: 90%;
+  }
+
+  /*Preparation time*/
+  .Preparation
+  {
+    background-color: pink;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .Preparation li{
+    padding: 5px;
+  }
+  .Preparation h3{
+   color: palevioletred;
+
+  }
+
+  /*Ingredients*/
+  .Ingredients li{
+    padding: 8px;
+  }
+
+/*Instructions*/
+  .Instructions li{
+    padding: 8px;
+  }
+  /*Nutrition*/
+.Nutrition table span{
+    color: brown;
+    font-size: 20px;
+    font-weight: 200;
+}
+.Nutrition p{
+    margin-left: 20px;
+}
+.Nutrition table{
+    margin-left: 20px;
+    
+}
+.Nutrition table td{
+    border-bottom: 1px solid rgb(0, 0,0, 0.5);
+}
+
+ 
+
+  
+
+  
