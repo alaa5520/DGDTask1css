@@ -1,0 +1,95 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1em;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+.cards  {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ietm {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    background: yellow;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.price {
+
+    background: #A2F3B7;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: flex;
+    justify-self: end;
+}
+.rivew {
+    display: flex;
+    justify-self: end;
+    
+    color: #bbb;
+    margin-top: 0px;
+}
+h4{
+    display: flex;
+    justify-self: start;
+}
+.card p {
+    display: flex;
+    justify-self: start;
+
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+
